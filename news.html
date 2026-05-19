@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>News | Suzhou Shutao Electronic Technology Co., Ltd</title>
+    <meta name="description" content="Stay updated with the latest news from Suzhou Shutao Electronic Technology Co., Ltd. Learn about our products, services, and company updates.">
+    <link rel="icon" type="image/svg+xml" href="images/logo.svg">
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <div class="loading-overlay" id="loadingOverlay"><div class="loader"><div class="loader-inner"></div></div></div>
+
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <a href="index.html" class="nav-logo">
+                <svg viewBox="0 0 120 40" class="logo-svg"><defs><linearGradient id="logoGradient" x1="0%" y1="0%" x2="100%" y2="100%"><stop offset="0%" style="stop-color:#00d4ff"/><stop offset="100%" style="stop-color:#0066ff"/></linearGradient></defs><rect x="5" y="5" width="30" height="30" rx="5" fill="url(#logoGradient)"/><text x="45" y="27" class="logo-text">SHUTAOTECH</text></svg>
+            </a>
+            <button class="mobile-menu-btn" id="mobileMenuBtn" aria-label="Toggle menu" aria-expanded="false"><span></span><span></span><span></span></button>
+            <ul class="nav-links" id="navLinks">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="services.html">Services</a></li>
+                <li><a href="culture.html">Culture</a></li>
+                <li><a href="news.html" class="active">News</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <section class="hero" style="min-height: 60vh; padding-top: 8rem;">
+        <div class="hero-background"><div class="gradient-orb orb-1"></div><div class="gradient-orb orb-2"></div></div>
+        <div class="hero-content">
+            <div class="hero-badge">Latest Updates</div>
+            <h1 class="hero-title"><span class="title-line gradient-text">News & Updates</span></h1>
+            <p class="hero-subtitle">Stay informed about the latest developments at Shutao Technology, including product launches, company milestones, and industry insights.</p>
+        </div>
+    </section>
+
+    <!-- Featured News -->
+    <section class="section">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">Featured</span>
+                <h2>Latest News</h2>
+                <p>Recent updates from Shutao Technology covering our products, services, and company developments.</p>
+            </div>
+            
+            <div class="services-grid">
+                <article class="service-card" style="cursor: pointer;">
+                    <div class="card-icon-wrapper">
+                        <svg class="card-icon" viewBox="0 0 64 64">
+                            <rect x="12" y="8" width="40" height="48" rx="4" fill="none" stroke="url(#iconGradient)" stroke-width="2"/>
+                            <circle cx="32" cy="32" r="10" fill="url(#iconGradient)"/>
+                        </svg>
+                        <div class="icon-glow"></div>
+                    </div>
+                    <span class="news-category">Product Launch</span>
+                    <h3>New Smart Home Hub Released</h3>
+                    <p style="color: var(--text-secondary);">We've launched our latest smart home hub featuring advanced AI capabilities, seamless device integration, and enhanced security protocols. The new hub supports over 500 compatible devices.</p>
+                    <div class="news-meta" style="margin-top: 1rem;">
+                        <span class="news-date">March 15, 2026</span>
+                    </div>
+                </article>
+                
+                <article class="service-card" style="cursor: pointer;">
+                    <div class="card-icon-wrapper">
+                        <svg class="card-icon" viewBox="0 0 64 64">
+                            <circle cx="32" cy="32" r="24" fill="none" stroke="url(#iconGradient)" stroke-width="2"/>
+                            <path d="M32 16v16l12 8" stroke="url(#iconGradient)" stroke-width="2"/>
+                        </svg>
+                        <div class="icon-glow"></div>
+                    </div>
+                    <span class="news-category">Milestone</span>
+                    <h3>1 Million Downloads Achieved</h3>
+                    <p style="color: var(--text-secondary);">We are proud to announce that our mobile applications have reached 1 million downloads across Google Play and App Store. Thank you to all our users for your support!</p>
+                    <div class="news-meta" style="margin-top: 1rem;">
+                        <span class="news-date">February 28, 2026</span>
+                    </div>
+                </article>
+                
+                <article class="service-card" style="cursor: pointer;">
+                    <div class="card-icon-wrapper">
+                        <svg class="card-icon" viewBox="0 0 64 64">
+                            <path d="M32 8L8 24v16l24 16 24-16V24L32 8z" fill="none" stroke="url(#iconGradient)" stroke-width="2"/>
+                            <circle cx="32" cy="32" r="8" fill="url(#iconGradient)"/>
+                        </svg>
+                        <div class="icon-glow"></div>
+                    </div>
+                    <span class="news-category">Partnership</span>
+                    <h3>Strategic Partnership Announced</h3>
+                    <p style="color: var(--text-secondary);">Shutao Technology has formed a strategic partnership with a leading IoT platform provider to enhance our smart home ecosystem and deliver better connected experiences.</p>
+                    <div class="news-meta" style="margin-top: 1rem;">
+                        <span class="news-date">February 10, 2026</span>
+                    </div>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <!-- More News -->
+    <section class="section">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">More Stories</span>
+                <h2>Recent Updates</h2>
+                <p>More news and updates from our company and products.</p>
+            </div>
+            
+            <div class="services-grid">
+                <article class="service-card" style="cursor: pointer;">
+                    <span class="news-category">Technology</span>
+                    <h3>IoT Integration Framework Updated</h3>
+                    <p style="color: var(--text-secondary);">Our proprietary IoT integration framework has been significantly updated with new protocols, improved reliability, and expanded device compatibility.</p>
+                    <div class="news-meta" style="margin-top: 1rem;">
+                        <span class="news-date">January 25, 2026</span>
+                    </div>
+                </article>
+                
+                <article class="service-card" style="cursor: pointer;">
+                    <span class="news-category">Product</span>
+                    <h3>New Mobile App Categories Added</h3>
+                    <p style="color: var(--text-secondary);">We've expanded our mobile app portfolio with 10 new applications covering productivity, health, and lifestyle categories now available on both platforms.</p>
+                    <div class="news-meta" style="margin-top: 1rem;">
+                        <span class="news-date">January 15, 2026</span>
+                    </div>
+                </article>
+                
+                <article class="service-card" style="cursor: pointer;">
+                    <span class="news-category">Expansion</span>
+                    <h3>Services Launched in 5 New Countries</h3>
+                    <p style="color: var(--text-secondary);">Our products and services are now available in 5 additional countries, bringing our total global reach to over 20 countries across multiple continents.</p>
+                    <div class="news-meta" style="margin-top: 1rem;">
+                        <span class="news-date">January 5, 2026</span>
+                    </div>
+                </article>
+                
+                <article class="service-card" style="cursor: pointer;">
+                    <span class="news-category">Award</span>
+                    <h3>Innovation Award Recognition</h3>
+                    <p style="color: var(--text-secondary);">Shutao Technology received recognition for innovation excellence in smart home technology at the annual Asia Tech Awards ceremony.</p>
+                    <div class="news-meta" style="margin-top: 1rem;">
+                        <span class="news-date">December 20, 2025</span>
+                    </div>
+                </article>
+                
+                <article class="service-card" style="cursor: pointer;">
+                    <span class="news-category">Development</span>
+                    <h3>Electronic R&D Center Expansion</h3>
+                    <p style="color: var(--text-secondary);">Our R&D center has been expanded with state-of-the-art equipment and new engineering talent to accelerate development of next-generation electronic products.</p>
+                    <div class="news-meta" style="margin-top: 1rem;">
+                        <span class="news-date">December 10, 2025</span>
+                    </div>
+                </article>
+                
+                <article class="service-card" style="cursor: pointer;">
+                    <span class="news-category">Sustainability</span>
+                    <h3>Green Technology Initiative Launched</h3>
+                    <p style="color: var(--text-secondary);">Shutao Technology has launched a sustainability initiative focused on eco-friendly product design and reducing our carbon footprint across all operations.</p>
+                    <div class="news-meta" style="margin-top: 1rem;">
+                        <span class="news-date">November 28, 2025</span>
+                    </div>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <!-- Newsletter Section -->
+    <section class="section cta-section">
+        <div class="container">
+            <div class="cta-content">
+                <h2>Subscribe to Our Newsletter</h2>
+                <p>Stay updated with our latest news, product releases, and company updates delivered straight to your inbox.</p>
+                <div class="cta-buttons">
+                    <a href="contact.html" class="btn btn-primary">Subscribe Now</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="footer-main">
+            <div class="footer-brand">
+                <svg viewBox="0 0 120 40" class="footer-logo"><defs><linearGradient id="footerLogoGradient" x1="0%" y1="0%" x2="100%" y2="100%"><stop offset="0%" style="stop-color:#00d4ff"/><stop offset="100%" style="stop-color:#0066ff"/></linearGradient></defs><rect x="5" y="5" width="30" height="30" rx="5" fill="url(#footerLogoGradient)"/><text x="45" y="27" class="logo-text">SHUTAOTECH</text></svg>
+                <p class="footer-description">Leading technology enterprise specializing in electronic equipment R&D, smart home solutions, and mobile application development.</p>
+            </div>
+            <div class="footer-links"><h4>Navigation</h4><ul><li><a href="index.html">Home</a></li><li><a href="services.html">Services</a></li><li><a href="culture.html">Culture</a></li><li><a href="news.html">News</a></li><li><a href="contact.html">Contact</a></li></ul></div>
+            <div class="footer-links"><h4>Legal</h4><ul><li><a href="privacy.html">Privacy Policy</a></li><li><a href="terms.html">Terms of Service</a></li></ul></div>
+            <div class="footer-links"><h4>Contact</h4><ul><li>LD-1F-02-2, Fanhua Center, No. 4555 Renmin Road, Yuanhe Street, Xiangcheng District</li><li>support@shutaotech.com</li><li>sunliyuan@shutaotech.com</li></ul></div>
+        </div>
+        <div class="footer-bottom"><p>&copy; 2026 Suzhou Shutao Electronic Technology Co., Ltd. All rights reserved.</p><div class="footer-legal"><a href="privacy.html">Privacy Policy</a><span class="separator">|</span><a href="terms.html">Terms of Service</a></div></div>
+    </footer>
+
+    <svg style="position: absolute; width: 0; height: 0;"><defs><linearGradient id="iconGradient" x1="0%" y1="0%" x2="100%" y2="100%"><stop offset="0%" style="stop-color:#00d4ff"/><stop offset="100%" style="stop-color:#0066ff"/></linearGradient><linearGradient id="logoGradient" x1="0%" y1="0%" x2="100%" y2="100%"><stop offset="0%" style="stop-color:#00d4ff"/><stop offset="100%" style="stop-color:#0066ff"/></linearGradient></defs></svg>
+    <script src="js/main.js"></script>
+</body>
+</html>
+
+
